@@ -18,8 +18,6 @@ int main(void)
             putchar(num);
             putchar(44);
             num++;
-            
-        }
-        
+        }  
     }
 }
