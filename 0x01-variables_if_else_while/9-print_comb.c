@@ -17,6 +17,7 @@ int main(void)
         else{
             putchar(num);
             putchar(44);
+            putchar(32);
             num++;
         }  
     }
