@@ -7,19 +7,20 @@
  */
 int main(void)
 {
-    int num=0;
+    int num = 0;
+    
     while (num < 16)
     {
         if (num < 10)
         {
-            putchar('0' + num);
+        putchar('0' + num);
         }
         else
         {
-            putchar('a' + (num - 10));
+        putchar('a' + (num - 10));
         }
-        num++;
+    num++;
     }
-            putchar('\n');
-    return 0;
+    putchar('\n');
+    return (0);
 }
