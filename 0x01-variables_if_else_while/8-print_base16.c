@@ -7,17 +7,18 @@
  */
 int main(void)
 {
-    for (int i = 0; i < 16; i++)
+    int num=0;
+    while (num < 16)
     {
-        if (i < 10)
+        if (num < 10)
         {
-            putchar('0' + i);
+            putchar('0' + num);
         }
         else
         {
-            putchar('a' + (i - 10));
+            putchar('a' + (num - 10));
         }
-        putchar('\n');
+        num++;
     }
     
     return 0;
