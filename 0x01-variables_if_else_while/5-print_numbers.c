@@ -5,12 +5,16 @@
  * 10 starting from 0, followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	int n;
-
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	printf("\n");
-	return (0);
+    int num = 0;
+    
+    while (num < 10)
+    {
+        printf("%d",num);
+        num++;
+    }
+    printf("\n");
+        
+    return (0);
 }
