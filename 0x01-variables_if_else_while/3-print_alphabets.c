@@ -1,22 +1,27 @@
 #include <stdio.h>
+
 /**
-* Main - prints the alphabet in lower case and then in uppercase,
-* followed by a new line
-* return: Always 0 to show success
-*/
-int main() {
+ * main - Prints the alphabet in lowercase and then in uppercase,
+ *        followed by a new line.
+ * Return: Always 0 to indicate success.
+ */
+int main(void)
+{
     char ch = 'a';
     char c = 'A';
-    
-    while(ch <= 'z'){
+
+    while (ch <= 'z')
+    {
         putchar(ch);
         ch++;
-       
     }
-    while (c <= 'Z'){
+
+    while (c <= 'Z')
+    {
         putchar(c);
         c++;
     }
+
     putchar('\n');
-    return(0);
+    return (0);
 }
