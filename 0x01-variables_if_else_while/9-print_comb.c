@@ -6,21 +6,18 @@
  */
 int main(void)
 {
-    int num = 48;
-    
-    while (num <=57)
-    {
-        if (num==57){
-            putchar(num);
-            break;
-        }
-        else{
-            putchar(num);
-            putchar(44);
-            putchar(32);
-            num++;
-        }  
-    }
-    putchar('\n');
-    return(0);
+    int num = 0;
+	
+    while (num <= 9)
+	{
+		putchar((num % 10) + '0');
+		if (num == 9)
+			break;
+		putchar(',');
+		putchar(' ');
+		num++;
+	}
+
+	putchar('\n');
+	return (0);
 }
