@@ -10,7 +10,7 @@
  */
 int main(int argc, char **argv)
 {
-	int i=1, n, sum = 0;
+	int i = 1, n, sum = 0;
 	char *flag;
 
 	if (argc < 2)
@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 		return (0);
 	}
 
-	while(argv[i])
+	while (argv[i])
 	{
 		n = strtol(argv[i], &flag, 10);
 		if (*flag)
