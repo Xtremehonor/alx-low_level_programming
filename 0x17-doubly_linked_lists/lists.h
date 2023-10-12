@@ -5,16 +5,14 @@
 #include <stdlib.h>
 
 /**
- * struct dlistint_s - Doubly linked
- * list node structure.
- * @n: Integer data.
- * @prev: Pointer to the previous node.
- * @next: Pointer to the next node.
+ * struct dlistint_s - doubly linked list
+ * @n: integer
+ * @prev: points to the previous node
+ * @next: points to the next node
  *
- * Description: Defines a node
- * for a doubly linked list.
+ * Description: doubly linked list node structure
+ * for ALX project
  */
-
 typedef struct dlistint_s
 {
 	int n;
